@@ -8,7 +8,7 @@ on:
 jobs:
   setup:
     env:
-      COMMAND_CLAIM: "xvfb-run python main.py get"
+      COMMAND_CLAIM: "xvfb-run python main.py claim"
       COMMAND_GET: "xvfb-run python main.py get"
       COMMAND_UNREAL: "xvfb-run python main.py unreal"
       FAKE_HASH: "Automated deployment @ $(date '+%Y-%m-%d %H:%M:%S') Asia/Shanghai"
