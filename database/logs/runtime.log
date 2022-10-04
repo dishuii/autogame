@@ -44,3 +44,121 @@
 2022-10-04 21:19:21.925 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
 2022-10-04 21:19:25.657 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
 2022-10-04 21:19:30.793 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:117 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-10-04 21:30:03.954 | INFO     | services.scaffold:get:88 - STARTUP [ScaffoldGet] 正在清空免费商店...
+2022-10-04 21:30:04.014 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-04 21:30:04.736 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1210 - >> CHECK [CookieManager] The identity token is valid.
+2022-10-04 21:30:04.748 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-04 21:30:04.749 | INFO     | apis.scaffold.get:get_ctx_store:98 - 更新商城数据
+2022-10-04 21:30:05.218 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-04 21:30:05.218 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-04 21:30:22.879 | INFO     | apis.scaffold.get:get_oder_history:109 - 更新订单数据
+2022-10-04 21:30:26.418 | INFO     | apis.scaffold.get:attach:166 - 当前玩家 がえん とおえ(4) 可领取 47 款常驻免费游戏
+2022-10-04 21:30:26.419 | INFO     | apis.scaffold.get:attach:167 - 当前玩家 がえん とおえ(4) 仍有 43 款免费游戏尚未领取
+2022-10-04 21:30:26.420 | DEBUG    | services.bricklayer.game:cart_balancing:80 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-10-04 21:30:40.738 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《命运 2》』
+2022-10-04 21:30:40.938 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:30:49.279 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『Realm Royale Reforged』
+2022-10-04 21:30:49.357 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:30:59.286 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《摔角城大乱斗》』
+2022-10-04 21:30:59.454 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:31:08.071 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『传奇商店』
+2022-10-04 21:31:08.177 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:31:16.531 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Fault: Elder Orb》』
+2022-10-04 21:31:16.621 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:31:25.824 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《冠军冲刺》』
+2022-10-04 21:31:25.896 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:31:33.633 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Star Stable Online》』
+2022-10-04 21:31:33.722 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:31:42.282 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《The Cycle》』
+2022-10-04 21:31:42.365 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:31:50.281 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《KARDS - 二战题材卡牌游戏》』
+2022-10-04 21:31:50.373 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:31:59.524 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/7 11:00 - game=『《Armored Warfare》』
+2022-10-04 21:31:59.610 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:32:08.326 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Space Punks》』
+2022-10-04 21:32:08.405 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:32:17.575 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Pinball FX》』
+2022-10-04 21:32:17.653 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:32:25.564 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Ghostwire: Tokyo》- 序章』
+2022-10-04 21:32:25.671 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:32:35.358 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Century: Age of Ashes》』
+2022-10-04 21:32:35.436 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:32:43.085 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《KID A MNESIA EXHIBITION》』
+2022-10-04 21:32:43.213 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:32:51.025 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Animation Throwdown: The Quest for Cards》』
+2022-10-04 21:32:51.102 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:33:00.987 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《EVE Online》』
+2022-10-04 21:33:01.065 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:33:08.980 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Warface》』
+2022-10-04 21:33:09.065 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:33:17.552 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Super Squad》』
+2022-10-04 21:33:17.644 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:33:25.925 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Scavengers》』
+2022-10-04 21:33:26.016 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:33:35.300 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Core》』
+2022-10-04 21:33:35.427 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:33:46.317 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《战舰世界》』
+2022-10-04 21:33:46.418 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:33:53.515 | DEBUG    | services.bricklayer.game:claim_stabilizer:240 - >> QUIT [GameClaimer] Message: 内容品当前在您所在平台或地区不可用。 - url=https://store.epicgames.com/zh-CN/p/crayta
+2022-10-04 21:34:01.677 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『Primordials: Battle of Gods』
+2022-10-04 21:34:01.778 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:34:11.888 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Idle Champions of the Forgotten Realms》』
+2022-10-04 21:34:12.005 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:34:21.272 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/10 11:00 - game=『《咒语力量3： Versus Edition》』
+2022-10-04 21:34:21.358 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:34:31.175 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Warframe》』
+2022-10-04 21:34:31.265 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:34:41.114 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《CRSED: F.O.A.D.》』
+2022-10-04 21:34:41.197 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:34:51.626 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Neverwinter》』
+2022-10-04 21:34:51.712 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:35:01.635 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Star Trek Online》』
+2022-10-04 21:35:01.725 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:35:11.612 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Rogue Company》』
+2022-10-04 21:35:11.694 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:35:22.329 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Heroes & Generals WWII》』
+2022-10-04 21:35:22.422 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:35:37.084 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《3 out of 10, EP 5》: The Rig Is Up!』
+2022-10-04 21:35:37.173 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:35:45.309 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『Spellbreak』
+2022-10-04 21:35:45.392 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:35:53.994 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Diabotical》』
+2022-10-04 21:35:54.094 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:36:02.891 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《3 out of 10, EP 4》: Thank You For Being An Asset』
+2022-10-04 21:36:02.976 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:36:11.755 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《3 out of 10, EP 3》：Pivot Like A Champion』
+2022-10-04 21:36:11.832 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:36:20.474 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《3 out of 10, EP 2》: Foundation 101』
+2022-10-04 21:36:20.559 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:36:29.088 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《3 out of 10, EP 1》：Welcome To Shovelworks』
+2022-10-04 21:36:29.177 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:36:38.443 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『Dauntless』
+2022-10-04 21:36:38.536 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:36:46.600 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《Auto Chess》』
+2022-10-04 21:36:46.720 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:36:57.037 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『《堡垒之夜》』
+2022-10-04 21:36:57.129 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:37:05.366 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 - game=『Unreal Tournament』
+2022-10-04 21:37:05.473 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:37:05.839 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-04 21:37:16.832 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-04 21:37:39.744 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=下单
+2022-10-04 21:37:43.110 | DEBUG    | services.bricklayer.game:empty_shopping_payment:131 - [🛵] 处理购物订单...
+2022-10-04 21:37:43.136 | DEBUG    | services.bricklayer.core:cart_handle_payment:975 - [🌀] 切换至内联订单框架
+2022-10-04 21:37:43.136 | DEBUG    | services.bricklayer.core:cart_handle_payment:981 - [⚔] 激活人机挑战...
+2022-10-04 21:38:02.707 | DEBUG    | services.bricklayer.core:cart_handle_payment:992 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-10-04 21:38:02.783 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「冰上企鹅」
+2022-10-04 21:38:03.509 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.18s
+2022-10-04 21:38:03.511 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading penguin_on_ice.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/penguin_on_ice.onnx
+2022-10-04 21:38:05.728 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_on_ice(ResNet)_model: 0.21s
+2022-10-04 21:38:09.842 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-04 21:38:09.889 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「冰上企鹅」
+2022-10-04 21:38:10.596 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.11s
+2022-10-04 21:38:12.364 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - penguin_on_ice(ResNet)_model: 0.01s
+2022-10-04 21:38:21.291 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-04 21:38:22.341 | DEBUG    | services.bricklayer.core:cart_handle_payment:996 - [🌀] 弹出内联订单框架...
+2022-10-04 21:38:28.368 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-04 21:38:31.726 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-04 21:38:34.192 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:109 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-10-04 21:38:34.193 | INFO     | apis.scaffold.get:push_all_message:150 - Notify [MessagePusher] 推送运行日志 - active_pusher=[]
+2022-10-04 21:38:34.497 | SUCCESS  | services.scaffold:get:91 - DONE [ScaffoldGet] 任务退出

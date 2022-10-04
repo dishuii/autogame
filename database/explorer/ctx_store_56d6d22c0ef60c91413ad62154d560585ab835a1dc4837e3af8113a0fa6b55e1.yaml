@@ -1,0 +1,236 @@
+_games:
+- image_url: https://cdn1.epicgames.com/spt-assets/c4dde13fcdea4aaa84dabb303006a870/download-runbow-offer-6amjn.png
+  in_library: null
+  namespace: aa7c3e6b5a2a4ca8962270c15bddb861
+  title: Runbow
+  url: https://store.epicgames.com/zh-CN/p/runbow-fc9fa4
+- image_url: https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/FR_Bungie_Destiny2_S1_2560x1440_2560x1440-eb02e9edc6111b582ebbacbaae6482ed
+  in_library: null
+  namespace: 428115def4ca4deea9d69c99c5a5a99e
+  title: "\u300A\u547D\u8FD0 2\u300B"
+  url: https://store.epicgames.com/zh-CN/p/destiny-2
+- image_url: https://cdn1.epicgames.com/offer/5fcf6f3031c547f789e29c18b422ca67/RRR_Release_BoxArt_EGS_PortraitImage_860x1148_860x1148-d0dacba2a13d826da03e7044814f79e7
+  in_library: null
+  namespace: 5fcf6f3031c547f789e29c18b422ca67
+  title: Realm Royale Reforged
+  url: https://store.epicgames.com/zh-CN/p/realm-royale-reforged
+- image_url: https://cdn1.epicgames.com/offer/0bef9383794a4d779ba0628084b14cba/EGS_Rumbleverse_IronGalaxyStudios_S2_1200x1600-daebad415991a443365d3e980f3da2d1
+  in_library: null
+  namespace: 0bef9383794a4d779ba0628084b14cba
+  title: "\u300A\u6454\u89D2\u57CE\u5927\u4E71\u6597\u300B"
+  url: https://store.epicgames.com/zh-CN/p/rumbleverse
+- image_url: https://cdn1.epicgames.com/spt-assets/8ae16e8a55fa4f3897fa726a90dbd750/download-shop-titans-offer-10i38.jpg
+  in_library: null
+  namespace: 9696e0c7c26841789a152588c744d506
+  title: "\u4F20\u5947\u5546\u5E97"
+  url: https://store.epicgames.com/zh-CN/p/shop-titans-d95c1c
+- image_url: https://cdn1.epicgames.com/offer/644221d9c96142f9b149c983362c5074/EGS_FaultElderOrb_StrangeMatterStudios_S1_2560x1440-682cd8f00b2d35b394d4f2a13a9cd76d
+  in_library: null
+  namespace: 644221d9c96142f9b149c983362c5074
+  title: "\u300AFault: Elder Orb\u300B"
+  url: https://store.epicgames.com/zh-CN/p/fault-elder-orb
+- image_url: https://cdn1.epicgames.com/offer/03208f1f61764f5a8f6b7ea24c56edf1/XXXX_Edition_Thumbnail_1920X1080_1920x1080-e2707a0ea7c026dae57b7507139b495a
+  in_library: null
+  namespace: 03208f1f61764f5a8f6b7ea24c56edf1
+  title: "\u300A\u51A0\u519B\u51B2\u523A\u300B"
+  url: https://store.epicgames.com/zh-CN/p/roller-champions
+- image_url: https://cdn1.epicgames.com/offer/207b765975664e9db1e29129aafae69c/EGS_StarStableOnline_StarStableEntertainmentAB_S2_1200x1600-96c527700712417d1689f6e1c0bb01ea_1200x1600-96c527700712417d1689f6e1c0bb01ea
+  in_library: null
+  namespace: 207b765975664e9db1e29129aafae69c
+  title: "\u300AStar Stable Online\u300B"
+  url: https://store.epicgames.com/zh-CN/p/star-stable
+- image_url: https://cdn1.epicgames.com/offer/50118b7f954e450f8823df1614b24e80/EGS_FallGuys_Mediatonic_S2_1200x1600-e589b07a4e0e8d37bfcf88c18ad6b239
+  in_library: null
+  namespace: 50118b7f954e450f8823df1614b24e80
+  title: "\u300A\u7CD6\u8C46\u4EBA\u300B"
+  url: https://store.epicgames.com/zh-CN/p/fall-guys
+- image_url: https://cdn1.epicgames.com/offer/azalea/EGS_TheCycleFrontier_YAGER_S2_1200x1600-6030a5995b4f4d1f4628b8d232541915
+  in_library: null
+  namespace: azalea
+  title: "\u300AThe Cycle\u300B"
+  url: https://store.epicgames.com/zh-CN/p/thecycle
+- image_url: https://cdn1.epicgames.com/offer/d34cf6aeceb94c579af0236fe1185b79/epic_header_kards_1200x1600_1200x1600-80b97af57d8d74946c9318a2cdfa616a
+  in_library: null
+  namespace: d34cf6aeceb94c579af0236fe1185b79
+  title: "\u300AKARDS - \u4E8C\u6218\u9898\u6750\u5361\u724C\u6E38\u620F\u300B"
+  url: https://store.epicgames.com/zh-CN/p/kards-the-world-war-ii-card-game
+- image_url: https://cdn1.epicgames.com/salesEvent/salesEvent/3eea8941-8aa8-45e9-bb7a-3b0a4914a0d4_1200x1600-676900003da381cf00278052b83524dd
+  in_library: null
+  namespace: 870929e8b7fb4e2b986c1a3f0a6ff38d
+  title: "\u300AArmored Warfare\u300B"
+  url: https://store.epicgames.com/zh-CN/p/armored-warfare
+- image_url: https://cdn1.epicgames.com/offer/0ded1556336546bf849c9d28878ec86c/EGS_SpacePunks_FlyingWildHog_S2_1200x1600-2dbf956bf38d5bf1908846df08b06933
+  in_library: null
+  namespace: 0ded1556336546bf849c9d28878ec86c
+  title: "\u300ASpace Punks\u300B"
+  url: https://store.epicgames.com/zh-CN/p/space-punks
+- image_url: https://cdn1.epicgames.com/offer/c11f80fe3b674a2bbf60e4c46d588a54/EGS_PinballFX_ZenStudios_S2_1200x1600-2f1b7a78e6ed9701e96c49c6d082a8b9
+  in_library: null
+  namespace: c11f80fe3b674a2bbf60e4c46d588a54
+  title: "\u300APinball FX\u300B"
+  url: https://store.epicgames.com/zh-CN/p/pinball-fx
+- image_url: https://cdn1.epicgames.com/offer/210f7e4911f14fea93b9db4973cea363/EGS_GhostwireTokyoPrelude_TangoGameworks_S1_2560x1440-bd7f44830c3f8f2d61e90ae690937f8b
+  in_library: null
+  namespace: 210f7e4911f14fea93b9db4973cea363
+  title: "\u300AGhostwire: Tokyo\u300B- \u5E8F\u7AE0"
+  url: https://store.epicgames.com/zh-CN/p/ghostwire-tokyo-prelude
+- image_url: https://cdn1.epicgames.com/offer/f698d5d792654ac99f47d67e93916bef/EGS_CenturyAgeofAshes_Playwing_S2_1200x1600-9e4284cedbef8457c73804eb4e81b299
+  in_library: null
+  namespace: f698d5d792654ac99f47d67e93916bef
+  title: "\u300ACentury: Age of Ashes\u300B"
+  url: https://store.epicgames.com/zh-CN/p/century-age-of-ashes
+- image_url: https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_KIDAMNESIAEXHIBITION_namethemachinexAGP_S2_1200x1600-03e1673e38cde74b38c35bfbba4d4aea
+  in_library: null
+  namespace: 72eb87039aa74e82a4b873c276de61e3
+  title: "\u300AKID A MNESIA EXHIBITION\u300B"
+  url: https://store.epicgames.com/zh-CN/p/kid-a-mnesia-exhibition
+- image_url: https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_AnimationThrowdownTheQuestforCards_Kongregate_S1_2560x1440-277cc591ebae1b733623971aed289ac2
+  in_library: null
+  namespace: 1fe9a1a33a8b4df8bd8dd3b9269f8153
+  title: "\u300AAnimation Throwdown: The Quest for Cards\u300B"
+  url: https://store.epicgames.com/zh-CN/p/animation-throwdown-the-quest-for-cards
+- image_url: https://cdn1.epicgames.com/offer/de554cff12704db4a900032bbd194d7e/EGS_EVEOnline_CCPGames_S2_04_1200x1600-c5616f4d499e82b9fa8f27afede27033
+  in_library: null
+  namespace: de554cff12704db4a900032bbd194d7e
+  title: "\u300AEVE Online\u300B"
+  url: https://store.epicgames.com/zh-CN/p/eve-online
+- image_url: https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_TheDroneRacingLeagueSimulator_TheDroneRacingLeague_S2_1200x1600-36e93298383163f825fc934da9003fb5
+  in_library: null
+  namespace: b6aa6a98bb394a53870bd6b026fefd1d
+  title: "\u300AThe Drone Racing League Simulator\u300B"
+  url: https://store.epicgames.com/zh-CN/p/the-drone-racing-league-simulator
+- image_url: https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Warface_AllodsTeam_S2_1200x1600-90a094bdcb6824eefe84c60ef0c4a612
+  in_library: null
+  namespace: 80e804312c2149c69a75aee703e85a9a
+  title: "\u300AWarface\u300B"
+  url: https://store.epicgames.com/zh-CN/p/warface
+- image_url: https://cdn1.epicgames.com/7ac3374a63524c509541e762348a4fb8/offer/EGS_SuperSquad_BadFoxStudios_S2-1200x1600-728833600c3d3e5c93cdfcf5154993bd.jpg
+  in_library: null
+  namespace: 7ac3374a63524c509541e762348a4fb8
+  title: "\u300ASuper Squad\u300B"
+  url: https://store.epicgames.com/zh-CN/p/super-squad
+- image_url: https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Scavengers_MidwinterEntertainment_S2_1200x1600-a6aa959b9f24a30b1123e5a29cfbb397
+  in_library: null
+  namespace: 0ffb7cf5cff64cd0a621222a8e969c28
+  title: "\u300AScavengers\u300B"
+  url: https://store.epicgames.com/zh-CN/p/scavengers
+- image_url: https://cdn1.epicgames.com/salesEvent/salesEvent/portrait_2560x1440-dd304f1615669d23722f6de52b4c9100
+  in_library: null
+  namespace: 8ff186a4415d4ce6b5a287ccfd11cf04
+  title: "\u300ACore\u300B"
+  url: https://store.epicgames.com/zh-CN/p/core
+- image_url: https://cdn1.epicgames.com/b829cfd910554ad3ad2eb3b314e2b1ef/offer/EGS_3outof10SeasonTwo_TerriblePostureGamesInc_S2-1200x1600-0526ebb8c316a36e20e97271782bd31d.jpg
+  in_library: null
+  namespace: b829cfd910554ad3ad2eb3b314e2b1ef
+  title: "\u300A3 out of 10: Season Two\u300B"
+  url: https://store.epicgames.com/zh-CN/p/3-out-of-10-season-2
+- image_url: https://cdn1.epicgames.com/offer/84c76746bce94effb8e1047fabfd7eb7/EGS_WorldofWarships_WargamingGroupLimited_S1_2560x1440-91b96dc67ebddf8f20cbb276740909af
+  in_library: null
+  namespace: 84c76746bce94effb8e1047fabfd7eb7
+  title: "\u300A\u6218\u8230\u4E16\u754C\u300B"
+  url: https://store.epicgames.com/zh-CN/p/world-of-warships
+- image_url: https://cdn1.epicgames.com/offer/bb9f87bb3d0042258bb1c97397bc60f2/EGS_Crayta_Unit2Games_S1_2560x1440-bf4cc13a16847a2e9907fe4ee0ddd0ad
+  in_library: null
+  namespace: bb9f87bb3d0042258bb1c97397bc60f2
+  title: "\u300ACrayta\u300B"
+  url: https://store.epicgames.com/zh-CN/p/crayta
+- image_url: https://cdn1.epicgames.com/b2192c4b00db40fe8848b3be6753cfd5/offer/pbog_keyart_315x399-315x399-a5853d2902b2a6524a52a14dccf1921c.png
+  in_library: null
+  namespace: b2192c4b00db40fe8848b3be6753cfd5
+  title: 'Primordials: Battle of Gods'
+  url: https://store.epicgames.com/zh-CN/p/primordials-battle-of-gods
+- image_url: https://cdn1.epicgames.com/offer/7e508f543b05465abe3a935960eb70ac/EpicCapsule_2560x1440_SeasonsCHN_1920x1080-062466feee6022c9d30e36dfb38932da
+  in_library: null
+  namespace: 7e508f543b05465abe3a935960eb70ac
+  title: "\u300AIdle Champions of the Forgotten Realms\u300B"
+  url: https://store.epicgames.com/zh-CN/p/idle-champions-of-the-forgotten-realms
+- image_url: https://cdn1.epicgames.com/72324f542dc4488681e617b0d39ad115/offer/EGS_SpellForce3VersusEdition_GrimloreGames_S2-1200x1600-9a12662da22ce51a12ef1733846b9548.jpg
+  in_library: null
+  namespace: 72324f542dc4488681e617b0d39ad115
+  title: "\u300A\u5492\u8BED\u529B\u91CF3\uFF1A Versus Edition\u300B"
+  url: https://store.epicgames.com/zh-CN/p/spellforce-3-versus
+- image_url: https://cdn1.epicgames.com/offer/244aaaa06bfa49d088205b13b9d2d115/EGS_Warframe_DigitalExtremes_S1_2560x1440-4b688ebf94d2200c8ce1cac552fe94a4
+  in_library: null
+  namespace: 244aaaa06bfa49d088205b13b9d2d115
+  title: "\u300AWarframe\u300B"
+  url: https://store.epicgames.com/zh-CN/p/warframe
+- image_url: https://cdn1.epicgames.com/offer/2b352b4aea3849bd9519842dda263ac7/ad874ff0-2c58-4d35-bc10-751670c563dd_1200x1600-3b10d8409e3d04fb0fafacef7a09015e
+  in_library: null
+  namespace: 2b352b4aea3849bd9519842dda263ac7
+  title: "\u300ACRSED: F.O.A.D.\u300B"
+  url: https://store.epicgames.com/zh-CN/p/crsed-f-o-a-d
+- image_url: https://cdn1.epicgames.com/offer/9a4a6536096c4307bfb235d811f754ce/EGS_Neverwinter_CrypticStudios_2_1200x1600-96c3b4f3c26b1c83fc49c6f643db9f1b
+  in_library: null
+  namespace: 9a4a6536096c4307bfb235d811f754ce
+  title: "\u300ANeverwinter\u300B"
+  url: https://store.epicgames.com/zh-CN/p/neverwinter
+- image_url: https://cdn1.epicgames.com/06a97980aac14fdfb914ef603a113792/offer/EGS_StarTrekOnline_CrypticStudios_S2-1200x1600-c7dacb2bf4d8f76ce25d5c2226238a8a.jpg
+  in_library: null
+  namespace: 06a97980aac14fdfb914ef603a113792
+  title: "\u300AStar Trek Online\u300B"
+  url: https://store.epicgames.com/zh-CN/p/star-trek-online
+- image_url: https://cdn1.epicgames.com/offer/933ada2ec45e4184ae840d64c99e0ba9/RoCo_EGS-2r7-BoxArt-PortraitProductImg_1200x1600_1200x1600-48ee3c6f0b9aa1ec90d7e2554f23e0f7
+  in_library: null
+  namespace: 933ada2ec45e4184ae840d64c99e0ba9
+  title: "\u300ARogue Company\u300B"
+  url: https://store.epicgames.com/zh-CN/p/rogue-company
+- image_url: https://cdn1.epicgames.com/offer/c3e63401d6ba410493de31ed69a798a1/9fd861fc-8e20-4f8a-ba5b-171e7f696e95_1200x1600-fa557591687616574398e4d5ef4fa553
+  in_library: null
+  namespace: c3e63401d6ba410493de31ed69a798a1
+  title: "\u300AHeroes & Generals WWII\u300B"
+  url: https://store.epicgames.com/zh-CN/p/heroes-and-generals-wwii
+- image_url: https://cdn1.epicgames.com/6a70006d598948bfa6c71ceb334ad635/offer/S1.Ep5.landscape-2560x1440-16b1dcfb1466f750bd0e36a7add11184.jpg
+  in_library: null
+  namespace: 6a70006d598948bfa6c71ceb334ad635
+  title: "\u300A3 out of 10, EP 5\u300B: The Rig Is Up!"
+  url: https://store.epicgames.com/zh-CN/p/3-out-of-10-ep-5
+- image_url: https://cdn1.epicgames.com/offer/newt/d77a203b-3757-4ce3-bbb4-93a8ef88cd3e_2560x1440-ec746d2f9e25a01ac22b14acb063097a
+  in_library: null
+  namespace: newt
+  title: Spellbreak
+  url: https://store.epicgames.com/zh-CN/p/spellbreak
+- image_url: https://cdn1.epicgames.com/36336ee97ec543bbae85abaca618182b/offer/EGS_Diabotical_TheGDStudio_S2-860x1148-4735874e9639619fd8c049cd8ebc72a8-860x1148-4735874e9639619fd8c049cd8ebc72a8.jpg
+  in_library: null
+  namespace: 36336ee97ec543bbae85abaca618182b
+  title: "\u300ADiabotical\u300B"
+  url: https://store.epicgames.com/zh-CN/p/diabotical
+- image_url: https://cdn1.epicgames.com/d6a3cae34c5d4562832610b5b8664576/offer/S1.ep4.landscape-2560x1440-a51a59bdc5383a7f1dd97705b1ddae50.jpg
+  in_library: null
+  namespace: d6a3cae34c5d4562832610b5b8664576
+  title: "\u300A3 out of 10, EP 4\u300B: Thank You For Being An Asset"
+  url: https://store.epicgames.com/zh-CN/p/3-out-of-10-ep-4
+- image_url: https://cdn1.epicgames.com/f4bbbc20a6b74295ac82b7c258739bff/offer/S1.Ep3.portrait-1200x1600-49c1956fb62218b50a78ed3a901091a8.jpg
+  in_library: null
+  namespace: f4bbbc20a6b74295ac82b7c258739bff
+  title: "\u300A3 out of 10, EP 3\u300B\uFF1APivot Like A Champion"
+  url: https://store.epicgames.com/zh-CN/p/3-out-of-10-ep3
+- image_url: https://cdn1.epicgames.com/9c5bbf5fa33d410b955b857c58f41c5c/offer/S1.ep2.landscape-2560x1440-765f39608c05ccedd299b44e8dedd6be.jpg
+  in_library: null
+  namespace: 9c5bbf5fa33d410b955b857c58f41c5c
+  title: "\u300A3 out of 10, EP 2\u300B: Foundation 101"
+  url: https://store.epicgames.com/zh-CN/p/3-out-of-10-ep-2
+- image_url: https://cdn1.epicgames.com/d9090f3f39f64d5bb827c6e44b95cff0/offer/S1.ep1.landscape-2560x1440-f49d806d1dcfa01e2d495edc89079516.jpg
+  in_library: null
+  namespace: d9090f3f39f64d5bb827c6e44b95cff0
+  title: "\u300A3 out of 10, EP 1\u300B\uFF1AWelcome To Shovelworks"
+  url: https://store.epicgames.com/zh-CN/p/3-out-of-10-ep-1
+- image_url: https://cdn1.epicgames.com/offer/jackal/EGS_LIVEFORTHEHUNT_PhoenixLabs_S1_2560x1440-49869c101153fff0696eb105e37a6a41
+  in_library: null
+  namespace: jackal
+  title: Dauntless
+  url: https://store.epicgames.com/zh-CN/p/dauntless
+- image_url: https://cdn1.epicgames.com/offer/37baf50c268d47779020d73143bb02b0/EGS_AutoChess_DragonestGames_S3_2560x1440-5d9e9fa173914b62b2366838fd150db0_2560x1440-5d9e9fa173914b62b2366838fd150db0
+  in_library: null
+  namespace: 37baf50c268d47779020d73143bb02b0
+  title: "\u300AAuto Chess\u300B"
+  url: https://store.epicgames.com/zh-CN/p/auto-chess
+- image_url: https://cdn1.epicgames.com/offer/fn/22BR_C3S4_EGS_StoreArt_Blade_2560x1440_2560x1440-d2d92800a59a2a71101041c4a98dfd12
+  in_library: null
+  namespace: fn
+  title: "\u300A\u5821\u5792\u4E4B\u591C\u300B"
+  url: https://store.epicgames.com/zh-CN/p/fortnite
+- image_url: https://cdn1.epicgames.com/ut/offer/NewB_TPBG02-2048x1152-1826500511-2048x1152-5e6cce4cfd852bda96140ad568f2e12d-2048x1152-5e6cce4cfd852bda96140ad568f2e12d.png
+  in_library: null
+  namespace: ut
+  title: Unreal Tournament
+  url: https://store.epicgames.com/zh-CN/p/unreal-tournament
