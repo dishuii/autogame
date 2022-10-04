@@ -1,0 +1,46 @@
+2022-10-04 21:16:50.032 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading objects.yaml from https://raw.githubusercontent.com/QIN2DIM/hcaptcha-challenger/main/src/objects.yaml
+2022-10-04 21:16:50.232 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:133 - Pulling AssetsObject from https://api.github.com/repos/qin2dim/hcaptcha-challenger/releases
+2022-10-04 21:16:50.797 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading yolov6n.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/yolov6n.onnx
+2022-10-04 21:16:53.749 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-10-04 21:16:53.809 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-10-04 21:16:54.390 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-04 21:16:54.390 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-04 21:17:31.355 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-04 21:17:31.475 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-04 21:17:33.751 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「玩具乌龟」
+2022-10-04 21:17:34.496 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.06s
+2022-10-04 21:17:34.500 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading toy_turtle.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/toy_turtle.onnx
+2022-10-04 21:17:36.589 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_turtle(ResNet)_model: 0.68s
+2022-10-04 21:17:40.661 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-04 21:17:40.715 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「玩具乌龟」
+2022-10-04 21:17:41.483 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.11s
+2022-10-04 21:17:43.114 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_turtle(ResNet)_model: 0.02s
+2022-10-04 21:17:52.259 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-04 21:17:53.081 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-04 21:17:54.004 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『The Drone Racing League Simulator』 url=https://store.epicgames.com/zh-CN/p/the-drone-racing-league-simulator
+2022-10-04 21:17:54.005 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Runbow』 url=https://store.epicgames.com/zh-CN/p/runbow-fc9fa4
+2022-10-04 21:17:54.006 | DEBUG    | services.bricklayer.game:cart_balancing:80 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-10-04 21:18:10.618 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/6 08:00 - game=『The Drone Racing League Simulator』
+2022-10-04 21:18:10.742 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:18:27.239 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/6 08:00 - game=『Runbow』
+2022-10-04 21:18:27.422 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-04 21:18:28.195 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-04 21:18:32.874 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-04 21:18:33.189 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=下单
+2022-10-04 21:18:37.225 | DEBUG    | services.bricklayer.game:empty_shopping_payment:131 - [🛵] 处理购物订单...
+2022-10-04 21:18:37.261 | DEBUG    | services.bricklayer.core:cart_handle_payment:975 - [🌀] 切换至内联订单框架
+2022-10-04 21:18:37.261 | DEBUG    | services.bricklayer.core:cart_handle_payment:981 - [⚔] 激活人机挑战...
+2022-10-04 21:18:57.724 | DEBUG    | services.bricklayer.core:cart_handle_payment:992 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-10-04 21:18:57.835 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「玩具屋」
+2022-10-04 21:18:58.520 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.06s
+2022-10-04 21:18:58.523 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading toy_house.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/toy_house.onnx
+2022-10-04 21:19:00.755 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_house(ResNet)_model: 0.67s
+2022-10-04 21:19:04.822 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-04 21:19:04.897 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「玩具屋」
+2022-10-04 21:19:05.594 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.05s
+2022-10-04 21:19:07.130 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - toy_house(ResNet)_model: 0.01s
+2022-10-04 21:19:12.527 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-04 21:19:12.816 | DEBUG    | services.bricklayer.core:cart_handle_payment:996 - [🌀] 弹出内联订单框架...
+2022-10-04 21:19:21.925 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-04 21:19:25.657 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-04 21:19:30.793 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:117 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
