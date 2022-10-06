@@ -162,3 +162,46 @@
 2022-10-04 21:38:34.192 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:109 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
 2022-10-04 21:38:34.193 | INFO     | apis.scaffold.get:push_all_message:150 - Notify [MessagePusher] 推送运行日志 - active_pusher=[]
 2022-10-04 21:38:34.497 | SUCCESS  | services.scaffold:get:91 - DONE [ScaffoldGet] 任务退出
+2022-10-07 05:42:29.886 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-10-07 05:42:29.965 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-07 05:42:30.347 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-10-07 05:42:30.924 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-07 05:42:30.925 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-07 05:42:56.962 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-07 05:42:57.086 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-07 05:42:59.406 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「马步行或奔跑」
+2022-10-07 05:43:00.415 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.31s
+2022-10-07 05:43:00.418 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading horse_walking_or_running.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/horse_walking_or_running.onnx
+2022-10-07 05:43:03.341 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - horse_walking_or_running(ResNet)_model: 0.66s
+2022-10-07 05:43:07.425 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-07 05:43:07.474 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「马步行或奔跑」
+2022-10-07 05:43:08.271 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.09s
+2022-10-07 05:43:09.356 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - horse_walking_or_running(ResNet)_model: 0.01s
+2022-10-07 05:43:18.512 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-07 05:43:19.328 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-07 05:43:20.295 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Rising Hell』 url=https://store.epicgames.com/zh-CN/p/rising-hell-253707
+2022-10-07 05:43:20.295 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Slain: Back From Hell』 url=https://store.epicgames.com/zh-CN/p/slain-aea303
+2022-10-07 05:43:20.296 | DEBUG    | services.bricklayer.game:cart_balancing:80 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-10-07 05:43:37.690 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/13 08:00 - game=『Rising Hell』
+2022-10-07 05:43:37.842 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-07 05:43:50.206 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/13 08:00 - game=『Slain: Back From Hell』
+2022-10-07 05:43:50.330 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-07 05:43:51.225 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-07 05:43:55.870 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-07 05:43:56.377 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=下单
+2022-10-07 05:43:59.757 | DEBUG    | services.bricklayer.game:empty_shopping_payment:131 - [🛵] 处理购物订单...
+2022-10-07 05:43:59.792 | DEBUG    | services.bricklayer.core:cart_handle_payment:975 - [🌀] 切换至内联订单框架
+2022-10-07 05:43:59.793 | DEBUG    | services.bricklayer.core:cart_handle_payment:981 - [⚔] 激活人机挑战...
+2022-10-07 05:44:20.352 | DEBUG    | services.bricklayer.core:cart_handle_payment:992 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-10-07 05:44:20.473 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「马步行或奔跑」
+2022-10-07 05:44:21.196 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.05s
+2022-10-07 05:44:23.452 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - horse_walking_or_running(ResNet)_model: 0.01s
+2022-10-07 05:44:27.540 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-07 05:44:27.606 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Get label - label=「马步行或奔跑」
+2022-10-07 05:44:28.334 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.08s
+2022-10-07 05:44:29.920 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] Submit the challenge - horse_walking_or_running(ResNet)_model: 0.02s
+2022-10-07 05:44:35.416 | DEBUG    | hcaptcha_challenger.core:log:321 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-07 05:44:35.846 | DEBUG    | services.bricklayer.core:cart_handle_payment:996 - [🌀] 弹出内联订单框架...
+2022-10-07 05:44:45.325 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-07 05:44:49.660 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-07 05:44:54.918 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:117 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
