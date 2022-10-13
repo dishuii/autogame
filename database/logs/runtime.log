@@ -205,3 +205,47 @@
 2022-10-07 05:44:45.325 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
 2022-10-07 05:44:49.660 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
 2022-10-07 05:44:54.918 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:117 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-10-14 05:42:29.303 | INFO     | services.deploy:job_loop_claim:126 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: True
+2022-10-14 05:42:29.375 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-14 05:42:29.753 | SUCCESS  | services.bricklayer.core:refresh_ctx_cookies:1221 - >> MATCH [__Context__] 🎮 启动挑战者上下文 - ctx_session=False
+2022-10-14 05:42:30.463 | INFO     | services.utils.toolbox:get_challenge_ctx:127 - Please use `xvfb` to empower the headful Chrome.
+2022-10-14 05:42:30.463 | INFO     | services.utils.toolbox:get_challenge_ctx:128 - CMD: xvfb-run python3 main.py claim
+2022-10-14 05:42:46.543 | DEBUG    | services.bricklayer.core:login:909 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-14 05:42:46.553 | DEBUG    | services.bricklayer.core:fall_in_captcha_login:63 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-14 05:42:48.877 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「水下鱼」
+2022-10-14 05:42:49.581 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.1s
+2022-10-14 05:42:49.584 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading fish_underwater.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/fish_underwater.onnx
+2022-10-14 05:42:51.267 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - fish_underwater(ResNet)_model: 0.6s
+2022-10-14 05:42:55.317 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-14 05:42:55.359 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「水下鱼」
+2022-10-14 05:42:55.998 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.05s
+2022-10-14 05:42:57.012 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - fish_underwater(ResNet)_model: 0.01s
+2022-10-14 05:43:06.047 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-14 05:43:06.874 | DEBUG    | services.bricklayer.core:load_ctx_cookies:1157 - >> LOAD [CookieManager] Load context cookie.
+2022-10-14 05:43:07.850 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『ToeJam & Earl: Back in the Groove!』 url=https://store.epicgames.com/zh-CN/p/toejam-and-earl-back-in-the-groove-cddc16
+2022-10-14 05:43:07.851 | DEBUG    | services.deploy:promotions_splitter:307 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Darkwood』 url=https://store.epicgames.com/zh-CN/p/darkwood-fa73bd
+2022-10-14 05:43:07.851 | DEBUG    | services.bricklayer.game:cart_balancing:80 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-10-14 05:43:23.323 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/20 08:00 - game=『ToeJam & Earl: Back in the Groove!』
+2022-10-14 05:43:23.433 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-14 05:43:33.356 | SUCCESS  | services.bricklayer.core:purchase_status:530 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/10/20 08:00 - game=『Darkwood』
+2022-10-14 05:43:33.475 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=add
+2022-10-14 05:43:33.931 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-14 05:43:38.376 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-14 05:43:38.892 | DEBUG    | services.bricklayer.core:_activate_payment:735 - [🔖] 资源订单加载完毕 - mode=下单
+2022-10-14 05:43:41.955 | DEBUG    | services.bricklayer.game:empty_shopping_payment:131 - [🛵] 处理购物订单...
+2022-10-14 05:43:41.994 | DEBUG    | services.bricklayer.core:cart_handle_payment:975 - [🌀] 切换至内联订单框架
+2022-10-14 05:43:41.994 | DEBUG    | services.bricklayer.core:cart_handle_payment:981 - [⚔] 激活人机挑战...
+2022-10-14 05:44:02.043 | DEBUG    | services.bricklayer.core:cart_handle_payment:992 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-10-14 05:44:02.157 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-10-14 05:44:02.827 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.07s
+2022-10-14 05:44:02.830 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading house.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/house.onnx
+2022-10-14 05:44:05.510 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.75s
+2022-10-14 05:44:09.665 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-10-14 05:44:09.722 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Get label - label=「房子」
+2022-10-14 05:44:10.388 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.1s
+2022-10-14 05:44:11.989 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] Submit the challenge - house(ResNet)_model: 0.01s
+2022-10-14 05:44:17.552 | DEBUG    | hcaptcha_challenger.core:log:322 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-10-14 05:44:17.744 | DEBUG    | services.bricklayer.core:cart_handle_payment:996 - [🌀] 弹出内联订单框架...
+2022-10-14 05:44:24.892 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
+2022-10-14 05:44:29.240 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
+2022-10-14 05:44:34.363 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:117 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
