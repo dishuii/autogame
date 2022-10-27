@@ -249,3 +249,49 @@
 2022-10-14 05:44:24.892 | DEBUG    | services.bricklayer.game:empty_shopping_payment:98 - [🛵] 重载身份令牌
 2022-10-14 05:44:29.240 | DEBUG    | services.bricklayer.game:empty_shopping_payment:107 - [🛵] 审查购物车状态
 2022-10-14 05:44:34.363 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:117 - >> ADVANCE [GameClaimer] ✔ 购物车已清空
+2022-10-28 05:38:30.966 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:133 - Pulling AssetsObject from https://api.github.com/repos/qin2dim/hcaptcha-challenger/releases
+2022-10-28 05:38:31.198 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:142 - 0
+2022-10-28 05:38:31.224 | INFO     | services.deploy:job_loop_claim:108 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-10-28 05:38:32.288 | INFO     | services.bricklayer.core:refresh_ctx_cookies:676 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-10-28 05:38:32.356 | INFO     | services.bricklayer.core:login:486 - >> MATCH [CookieManager] 刷新令牌
+2022-10-28 05:38:41.683 | INFO     | services.bricklayer.core:login:517 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-10-28 05:38:41.684 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-10-28 05:38:44.100 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「章鱼」
+2022-10-28 05:38:44.950 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.36s
+2022-10-28 05:38:44.951 | DEBUG    | hcaptcha_challenger._solutions.kernel:request_assets:133 - Pulling AssetsObject from https://api.github.com/repos/qin2dim/hcaptcha-challenger/releases
+2022-10-28 05:38:45.192 | ERROR    | hcaptcha_challenger._solutions.kernel:request_assets:142 - 0
+2022-10-28 05:38:45.679 | ERROR    | services.scaffold:claim:138 - An error has been caught in function 'claim', process 'MainProcess' (1777), thread 'MainThread' (140013495158592):
+Traceback (most recent call last):
+  File "/home/runner/work/autogame/autogame/epic/src/main.py", line 11, in <module>
+    Fire(Scaffold)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/fire/core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+> File "/home/runner/work/autogame/autogame/epic/src/services/scaffold.py", line 138, in claim
+    claimer.run(silence=silence, log_ignore=ignore, unreal=unreal)
+  File "/home/runner/work/autogame/autogame/epic/src/apis/scaffold/claimer.py", line 26, in run
+    ClaimerScheduler(silence=silence, unreal=unreal).job_loop_claim(log_ignore)
+  File "/home/runner/work/autogame/autogame/epic/src/services/deploy.py", line 113, in job_loop_claim
+    with GameClaimerInstance(self.silence, log_ignore=log_ignore) as claimer:
+  File "/home/runner/work/autogame/autogame/epic/src/services/deploy.py", line 166, in __enter__
+    fire(
+  File "/home/runner/work/autogame/autogame/epic/src/services/utils/toolbox.py", line 75, in fire
+    container(context)
+  File "/home/runner/work/autogame/autogame/epic/src/services/bricklayer/core.py", line 693, in refresh_ctx_cookies
+    resp = self.armor.anti_hcaptcha(page, window="login", recur_url=recur_url)
+  File "/home/runner/work/autogame/autogame/epic/src/services/bricklayer/core.py", line 258, in anti_hcaptcha
+    self.challenge(frame_challenge, model=model)
+  File "/home/runner/work/autogame/autogame/epic/src/services/bricklayer/core.py", line 125, in challenge
+    result = model.solution(img_stream=data, label=self.label_alias[self.label])
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 63, in solution
+    return self.classifier(img_stream, feature_filters=None)
+  File "/opt/hostedtoolcache/Python/3.10.8/x64/lib/python3.10/site-packages/hcaptcha_challenger/_solutions/resnet.py", line 54, in classifier
+    raise ResourceWarning(_err_prompt)  # maybe mercy
+ResourceWarning: 
+            The remote network does not exist or the local cache has expired.
+            1. Check objects.yaml for typos | model=octopus.onnx;
+            2. Restart the program after deleting the local cache | dir=datas/models/_assets;
+            
