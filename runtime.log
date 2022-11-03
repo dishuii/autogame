@@ -295,3 +295,68 @@ ResourceWarning:
             1. Check objects.yaml for typos | model=octopus.onnx;
             2. Restart the program after deleting the local cache | dir=datas/models/_assets;
             
+2022-11-04 05:33:00.151 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel Pattern: False
+2022-11-04 05:33:01.146 | INFO     | services.bricklayer.core:refresh_ctx_cookies:692 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-11-04 05:33:01.191 | INFO     | services.bricklayer.core:login:500 - >> MATCH [CookieManager] 刷新令牌
+2022-11-04 05:33:11.416 | INFO     | services.bricklayer.core:login:533 - >> MATCH [CookieManager] 实体信息注入完毕
+2022-11-04 05:33:11.416 | INFO     | services.bricklayer.core:fall_in_captcha_login:36 - >> ARMOR [ArmorUtils] 正在检测隐藏在登录界面的人机挑战...
+2022-11-04 05:33:13.503 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「纸杯蛋糕」
+2022-11-04 05:33:14.428 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.66s
+2022-11-04 05:33:14.430 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading cupcake.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/cupcake.onnx
+2022-11-04 05:33:16.464 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - cupcake(ResNet)_model: 0.21s
+2022-11-04 05:33:16.477 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-04 05:33:18.499 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「纸杯蛋糕」
+2022-11-04 05:33:19.411 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.59s
+2022-11-04 05:33:21.204 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - cupcake(ResNet)_model: 0.01s
+2022-11-04 05:33:26.212 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-04 05:33:28.216 | INFO     | services.bricklayer.core:login:500 - >> MATCH [CookieManager] 刷新令牌
+2022-11-04 05:33:34.396 | INFO     | services.bricklayer.core:login:513 - >> MATCH [CookieManager] 持久化信息未过期
+2022-11-04 05:33:40.303 | INFO     | services.bricklayer.core:load_ctx_cookies:660 - >> LOAD [CookieManager] Load context cookie
+2022-11-04 05:33:40.316 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-11-04 05:33:40.346 | INFO     | services.explorer.explorer:load_memory:198 - 加载历史商城数据 本地缓存71小时有效
+2022-11-04 05:33:40.523 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Rising Storm 2: Vietnam』 url=https://store.epicgames.com/zh-CN/p/rising-storm-2-vietnam
+2022-11-04 05:33:40.523 | DEBUG    | services.deploy:promotions_splitter:260 - >> STARTUP [GameClaimer] 🍜 发现周免游戏 - game=『Filament』 url=https://store.epicgames.com/zh-CN/p/filament-332a92
+2022-11-04 05:33:41.335 | DEBUG    | services.bricklayer.game:cart_balancing:71 - >> REMOVE [GameClaimer] 将购物车商品移至愿望清单
+2022-11-04 05:33:48.393 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/10 11:00 - game=『Rising Storm 2: Vietnam』
+2022-11-04 05:33:48.487 | INFO     | services.bricklayer.core:_activate_payment:476 - [🔖] 已添加商品至购物车
+2022-11-04 05:33:52.308 | SUCCESS  | services.bricklayer.core:purchase_status:371 - >> GET [GameClaimer] 🛒 添加至购物车 优惠截止于2022/11/10 11:00 - game=『Filament』
+2022-11-04 05:33:52.404 | INFO     | services.bricklayer.core:_activate_payment:476 - [🔖] 已添加商品至购物车
+2022-11-04 05:33:53.994 | DEBUG    | services.bricklayer.core:cart_is_empty:537 - [🛵] 审查购物车状态
+2022-11-04 05:33:54.936 | INFO     | services.bricklayer.core:_activate_payment:480 - [🔖] 已激活购物车零元购订单
+2022-11-04 05:33:54.946 | DEBUG    | services.bricklayer.core:cart_handle_payment:563 - [🛵] 处理购物订单...
+2022-11-04 05:34:02.055 | DEBUG    | services.bricklayer.core:cart_handle_payment:567 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-04 05:34:02.088 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「森林中黑猫」
+2022-11-04 05:34:03.068 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.57s
+2022-11-04 05:34:03.511 | DEBUG    | services.bricklayer.core:cart_handle_payment:569 - [🌀] 弹出内联订单框架...
+2022-11-04 05:34:05.403 | DEBUG    | services.bricklayer.core:cart_is_empty:537 - [🛵] 审查购物车状态
+2022-11-04 05:34:06.216 | INFO     | services.bricklayer.core:_activate_payment:480 - [🔖] 已激活购物车零元购订单
+2022-11-04 05:34:06.219 | DEBUG    | services.bricklayer.core:cart_handle_payment:563 - [🛵] 处理购物订单...
+2022-11-04 05:34:13.038 | DEBUG    | services.bricklayer.core:cart_handle_payment:567 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-04 05:34:13.070 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-04 05:34:13.920 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.49s
+2022-11-04 05:34:14.099 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading rabbit_blur.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/rabbit_blur.onnx
+2022-11-04 05:34:16.918 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit_blur(ResNet)_model: 0.85s
+2022-11-04 05:34:16.932 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-04 05:34:18.955 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「兔子」
+2022-11-04 05:34:19.786 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.47s
+2022-11-04 05:34:22.354 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - rabbit_blur(ResNet)_model: 0.56s
+2022-11-04 05:34:27.409 | WARNING  | services.bricklayer.core:is_continue_clickable:177 - 请再试一次
+2022-11-04 05:34:27.409 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-04 05:34:29.663 | DEBUG    | services.bricklayer.core:cart_handle_payment:569 - [🌀] 弹出内联订单框架...
+2022-11-04 05:34:31.193 | DEBUG    | services.bricklayer.core:cart_is_empty:537 - [🛵] 审查购物车状态
+2022-11-04 05:34:32.050 | INFO     | services.bricklayer.core:_activate_payment:480 - [🔖] 已激活购物车零元购订单
+2022-11-04 05:34:32.050 | DEBUG    | services.bricklayer.core:cart_handle_payment:563 - [🛵] 处理购物订单...
+2022-11-04 05:34:39.042 | DEBUG    | services.bricklayer.core:cart_handle_payment:567 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-11-04 05:34:39.069 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「鲨鱼」
+2022-11-04 05:34:40.060 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.63s
+2022-11-04 05:34:40.062 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:307 - Downloading shark.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/shark.onnx
+2022-11-04 05:34:42.128 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - shark(ResNet)_model: 0.22s
+2022-11-04 05:34:42.144 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-11-04 05:34:44.171 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Get label - label=「鲨鱼」
+2022-11-04 05:34:45.186 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=0.61s
+2022-11-04 05:34:46.853 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] Submit the challenge - shark(ResNet)_model: 0.01s
+2022-11-04 05:34:51.260 | DEBUG    | hcaptcha_challenger.core:log:323 - >> Challenge [ArmorCaptcha] 获取响应 - desc=退火成功(success)
+2022-11-04 05:34:51.499 | DEBUG    | services.bricklayer.core:cart_handle_payment:569 - [🌀] 弹出内联订单框架...
+2022-11-04 05:34:55.757 | INFO     | services.bricklayer.core:purchase_status:362 - >> GET [GameClaimer] 🛴 游戏已在库 - game=『Rising Storm 2: Vietnam』
+2022-11-04 05:34:56.758 | DEBUG    | services.bricklayer.core:cart_is_empty:537 - [🛵] 审查购物车状态
+2022-11-04 05:34:57.145 | SUCCESS  | services.bricklayer.game:empty_shopping_payment:84 - ADVANCE [GameClaimer] ✔ 购物车已清空
