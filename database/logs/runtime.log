@@ -752,3 +752,140 @@ ResourceWarning:
 2022-12-20 20:59:20.827 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
 2022-12-20 20:59:20.828 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
 2022-12-20 20:59:23.047 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-23 05:33:34.731 | INFO     | services.deploy:job_loop_claim:104 - >> STARTUP [AwesomeScheduler] SynergyTunnel - version=0.4.4-dev Pattern=False
+2022-12-23 05:33:38.338 | INFO     | services.bricklayer.core:refresh_ctx_cookies:691 - >> MATCH [__context__] 🎮启动挑战者上下文
+2022-12-23 05:33:38.389 | INFO     | services.bricklayer.core:login:491 - >> MATCH [CookieManager] 刷新令牌
+2022-12-23 05:33:41.045 | INFO     | services.bricklayer.core:login:504 - >> MATCH [CookieManager] 持久化信息未过期
+2022-12-23 05:33:49.863 | INFO     | services.bricklayer.core:load_ctx_cookies:659 - >> LOAD [CookieManager] Load context cookie
+2022-12-23 05:33:49.879 | INFO     | services.explorer.explorer:load_memory:195 - 加载历史订单数据 本地缓存119小时有效
+2022-12-23 05:33:49.929 | INFO     | services.explorer.explorer:load_memory:198 - 加载历史商城数据 本地缓存71小时有效
+2022-12-23 05:33:50.140 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Fallout 2: A Post Nuclear Role Playing Game - state=待认领 link=https://store.epicgames.com/zh-CN/p/fallout-2
+2022-12-23 05:33:50.140 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Fallout: A Post Nuclear Role Playing Game - state=待认领 link=https://store.epicgames.com/zh-CN/p/fallout
+2022-12-23 05:33:50.140 | DEBUG    | services.deploy:preload:286 - >> Checkout [GameClaimer] Fallout Tactics: Brotherhood of Steel - state=待认领 link=https://store.epicgames.com/zh-CN/p/fallout-tactics-brotherhood-of-steel
+2022-12-23 05:33:54.140 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Fallout 2: A Post Nuclear Role Playing Game - state=获取 link=https://store.epicgames.com/zh-CN/p/fallout-2
+2022-12-23 05:33:54.530 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-23 05:33:54.534 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-23 05:34:04.334 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-23 05:34:04.371 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:34:04.372 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:34:05.214 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:34:06.631 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.42s
+2022-12-23 05:34:06.868 | DEBUG    | hcaptcha_challenger._solutions.kernel:_request_asset:320 - Downloading hedgehog_on_rocks.onnx from https://github.com/QIN2DIM/hcaptcha-challenger/releases/download/model/hedgehog_on_rocks.onnx
+2022-12-23 05:34:09.929 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 1.34s
+2022-12-23 05:34:09.962 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:34:11.990 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:34:11.990 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:34:12.706 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:34:14.103 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.4s
+2022-12-23 05:34:16.603 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.73s
+2022-12-23 05:34:16.642 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-23 05:34:16.642 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:34:19.011 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-23 05:34:24.511 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Fallout 2: A Post Nuclear Role Playing Game - state=获取 link=https://store.epicgames.com/zh-CN/p/fallout-2
+2022-12-23 05:34:24.894 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-23 05:34:24.895 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-23 05:34:34.274 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-23 05:34:34.309 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:34:34.309 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:34:34.961 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:34:36.261 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.3s
+2022-12-23 05:34:39.109 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.73s
+2022-12-23 05:34:39.127 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:34:41.153 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:34:41.153 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:34:41.784 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:34:43.154 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.37s
+2022-12-23 05:34:45.968 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.74s
+2022-12-23 05:34:46.001 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-23 05:34:46.001 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:34:48.227 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-23 05:34:53.765 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Fallout 2: A Post Nuclear Role Playing Game - state=获取 link=https://store.epicgames.com/zh-CN/p/fallout-2
+2022-12-23 05:34:54.160 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-23 05:34:54.161 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-23 05:35:03.466 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-23 05:35:03.500 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2022-12-23 05:35:03.501 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:35:04.184 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:35:05.446 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.26s
+2022-12-23 05:35:06.037 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-23 05:35:11.435 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Fallout: A Post Nuclear Role Playing Game - state=获取 link=https://store.epicgames.com/zh-CN/p/fallout
+2022-12-23 05:35:11.840 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-23 05:35:11.845 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-23 05:35:21.120 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-23 05:35:21.157 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:35:21.157 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:35:21.812 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:35:23.125 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.31s
+2022-12-23 05:35:25.510 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.64s
+2022-12-23 05:35:25.532 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:35:27.562 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:35:27.562 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:35:28.232 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:35:29.564 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.33s
+2022-12-23 05:35:32.220 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.75s
+2022-12-23 05:35:32.253 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-23 05:35:32.253 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:35:34.466 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-23 05:35:39.970 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Fallout: A Post Nuclear Role Playing Game - state=获取 link=https://store.epicgames.com/zh-CN/p/fallout
+2022-12-23 05:35:40.341 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-23 05:35:40.341 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-23 05:35:49.776 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-23 05:35:49.807 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:35:49.807 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:35:50.438 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:35:51.728 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.29s
+2022-12-23 05:35:54.407 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.72s
+2022-12-23 05:35:54.424 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:35:56.456 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:35:56.456 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:35:57.097 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:35:58.472 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.38s
+2022-12-23 05:36:01.065 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.74s
+2022-12-23 05:36:01.097 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-23 05:36:01.098 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:36:03.442 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-23 05:36:09.037 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Fallout: A Post Nuclear Role Playing Game - state=获取 link=https://store.epicgames.com/zh-CN/p/fallout
+2022-12-23 05:36:09.375 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-23 05:36:09.376 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-23 05:36:18.791 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-23 05:36:18.823 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2022-12-23 05:36:18.823 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:36:19.490 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:36:20.767 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.28s
+2022-12-23 05:36:21.402 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-23 05:36:26.898 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Fallout Tactics: Brotherhood of Steel - state=获取 link=https://store.epicgames.com/zh-CN/p/fallout-tactics-brotherhood-of-steel
+2022-12-23 05:36:27.301 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-23 05:36:27.306 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-23 05:36:36.653 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-23 05:36:36.688 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2022-12-23 05:36:36.688 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:36:37.412 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:36:38.669 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.26s
+2022-12-23 05:36:39.265 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-23 05:36:44.409 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Fallout Tactics: Brotherhood of Steel - state=获取 link=https://store.epicgames.com/zh-CN/p/fallout-tactics-brotherhood-of-steel
+2022-12-23 05:36:44.903 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-23 05:36:44.903 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-23 05:36:54.182 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-23 05:36:54.219 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:36:54.219 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:36:54.957 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:36:56.222 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.26s
+2022-12-23 05:36:58.891 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.72s
+2022-12-23 05:36:58.910 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:37:00.936 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「刺猬在岩石上」
+2022-12-23 05:37:00.936 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:37:01.696 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:37:02.999 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.3s
+2022-12-23 05:37:05.414 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Submit the challenge - hedgehog_on_rocks(ResNet)_model: 0.73s
+2022-12-23 05:37:05.443 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Checkout - status=再试一次
+2022-12-23 05:37:05.443 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 获取响应 - desc=继续挑战(continue)
+2022-12-23 05:37:07.642 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
+2022-12-23 05:37:13.490 | DEBUG    | services.bricklayer.game:purchase_status:113 - >> Checkout [GameClaimer] Fallout Tactics: Brotherhood of Steel - state=获取 link=https://store.epicgames.com/zh-CN/p/fallout-tactics-brotherhood-of-steel
+2022-12-23 05:37:13.839 | INFO     | services.bricklayer.game:get_free_game:152 - [🔖] 已激活商品页零元购订单
+2022-12-23 05:37:13.839 | DEBUG    | services.bricklayer.core:cart_handle_payment:556 - [🛵] 处理购物订单...
+2022-12-23 05:37:23.192 | DEBUG    | services.bricklayer.core:cart_handle_payment:560 - [⚔] 捕获隐藏在订单中的人机挑战...
+2022-12-23 05:37:23.228 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Get label - label=「向日葵」
+2022-12-23 05:37:23.229 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在编排索引
+2022-12-23 05:37:23.930 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] 正在下载挑战图片
+2022-12-23 05:37:25.230 | DEBUG    | hcaptcha_challenger.core:log:315 - >> Challenge [ArmorCaptcha] Download challenge images - timeit=1.3s
+2022-12-23 05:37:25.786 | DEBUG    | services.bricklayer.core:cart_handle_payment:562 - [🌀] 弹出内联订单框架...
